@@ -1,0 +1,153 @@
+a:link {
+    color: rgb(67, 160, 44);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(128, 42, 226);
+}
+
+a:hover {
+    color: black;
+    background-color: gray;
+    text-decoration: solid;
+}
+
+a:active {
+    color: blue;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+body {
+    margin: 0px;
+}
+
+hr {
+
+    border: none;
+    border-top: dotted #507952;
+    border-width: 8px;
+    color: rgb(39, 82, 50);
+    border-color: rgb(39, 82, 50);
+    width: 500px;
+}
+
+.part1 {
+    position: relative;
+}
+
+.pt1text1 {
+    position: absolute;
+    top: 30%;
+    left: 42%;
+    font-family: robotoBlack;
+    color: #507952;
+    font-size: 30px;
+}
+
+.pt1text2 {
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    font-family: robotoBlack;
+    color: #507952;
+    font-size: 30px;
+}
+
+.portrait {
+    border-radius: 50%;
+}
+
+.part2 {
+    text-align: center;
+    font-family: robotoThin;
+    color: darkslategray;
+    font-size: 15px;
+    background-color: #eae0c8;
+}
+
+.lang {
+    column-count: 2;
+}
+
+
+
+.imgtext {
+    padding-left: 200px;
+}
+
+
+.part3 {
+    background-color: white;
+    text-align: center;
+    font-family: robotoThin;
+}
+
+.pt3text {
+    float: right;
+    text-align: left;
+    padding-right: 480px;
+    padding-top: 20px;
+}
+
+.part4 {
+    column-count: 2;
+    column-width: auto;
+}
+
+.pt4text {
+    padding-top: 10px;
+    float: right;
+    text-align: left;
+    padding-right: 380px;
+}
+
+.part4img {
+    padding-left: 350px;
+}
+
+.part5 {
+    column-count: 2;
+    column-width: auto;
+}
+
+.part5img {
+    padding-left: 200px;
+}
+
+.part5text {
+    float: right;
+    text-align: left;
+    padding-right: 400px;
+}
+
+.copyright {
+    background-color: #eae0c8;
+    color: black;
+    font-family: robotoThin;
+    padding: 10px;
+    text-align: center;
+    outline-style: solid;
+}
+
+.formText {
+    padding-left: 490px;
+    margin-right: 1000px;
+    float: left;
+}
+
+.formInput {
+    float: none;
+}
